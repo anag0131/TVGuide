@@ -1,0 +1,112 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #636e85;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.background-shapes {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1; /* Places it behind other elements */
+}
+
+.ellipse1, .ellipse2, .ellipse3 {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+}
+
+.ellipse1 {
+    top: 0;
+    left: 0;
+    width: 1162.16px;
+    height: 637.67px;
+    z-index: -1; /* Places it behind other elements */
+}
+
+.ellipse2 {
+    top: 552.4px;
+    width: 1280px;
+    height: 279.6px;
+    transform: translate(-50%, -50%);
+    z-index: -1; /* Places it behind other elements */
+}
+
+.ellipse3 {
+    top: 1000;
+    left: 902px;
+    width: 827.44px;
+    height: 916.63px;
+    z-index: -1; /* Places it behind other elements */
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#showInfo {
+    margin-top: 20px;
+}
+
+.alert {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.alert-success {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.alert-danger {
+    background-color: #f44336;
+    color: #fff;
+}
